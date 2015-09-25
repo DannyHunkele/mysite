@@ -1,0 +1,23 @@
+@media screen and (min-width: 481px) {
+	.mediaObject {
+		display: flex;
+	}
+
+	.mediaObject > .imageWrapper {
+		flex: 1;
+	}
+
+	.mediaObject > .imageWrapper > img {
+		width: 100%;
+	}
+
+	.mediaObject > .textWrapper {
+		flex: 3;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	img {
+		width: 100%;
+	}
+}
